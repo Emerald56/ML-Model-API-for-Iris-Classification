@@ -1,0 +1,3 @@
+[2025-06-23 10:54:47]
+❌ LOGIN FAILED: gomumarindribull@kbh.biglobe.ne.jp @ mail.biglobe.ne.jp:587
+Reason: Connection unexpectedly closed
