@@ -1,3 +1,0 @@
-[2025-06-23 10:59:16]
-❌ LOGIN FAILED: 6758 @ brandon@jobsitestud.com:4100:4001
-Reason: [Errno 8] nodename nor servname provided, or not known

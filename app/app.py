@@ -4,7 +4,8 @@ import numpy as np
 import os  #Ensure the app can find the model.pkl despite the current working directory
 
 # Load the trained model
-model = joblib.load("model.pkl")
+model_path = os.path.join(os.path.dirname(__file__),"model.pkl")
+model = joblib.load(model_path)
 # create Flask app
 app = Flask(__name__)
 @app.route("/")
@@ -23,4 +24,4 @@ def predict():
     # this feature returns the prediction as a JSON response
     return jsonify({"prediction": int(prediction[0])})
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5001)
