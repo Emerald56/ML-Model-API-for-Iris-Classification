@@ -1,0 +1,15 @@
+# Python virtual evironment
+venv/
+.venv/
+# Python bytecode
+__pycache__/
+*.py[cod]
+#Environment files
+.env 
+*.env
+#OS and IDE-specific  files
+.DS_Store
+.vsccode/
+# Build artifacts
+.eggs/
+*.egg-info/
