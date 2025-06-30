@@ -10,8 +10,8 @@ COPY . /app
 # Install dependencies
 RUN pip install --no-cache-dir flask scikit-learn joblib
 
-# Expose port 5000 so we can access the app
-EXPOSE 5000
+# Expose port 5001 so we can access the app
+EXPOSE 5001
 
 # Command to run your app
 CMD ["python", "app.py"]
